@@ -1,0 +1,6 @@
+
+<text space="emsp">  Python是一种计算机程序设计语言。是一种动态的、面向对象的脚本语言，最初被设计用于编写自动化脚本(shell)，随着版本的不断更新和语言新功能的添加，越来越多被用于独立的、大型项目的开发。</text>
+<view style='text-align:center'>
+<image src='../../images/python_icon.png' mode='center' bindload="imageLoad"
+style="width:{{imgwidth}}px; height:{{imgheight }}px;"/>
+</view>

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/java/java",
+    "pages/csharp/csharp",
+    "pages/python/python",
+    "pages/linux/linux"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#99ffcc",
+    "navigationBarTitleText": "IT训练营微课",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index_icon.png",
+        "selectedIconPath": "images/index_icon.png"
+      },
+      {
+        "pagePath": "pages/java/java",
+        "text": "Java",
+        "iconPath": "images/java_icon.png",
+        "selectedIconPath": "images/java_icon.png"
+      },
+      {
+        "pagePath": "pages/csharp/csharp",
+        "text": "CSharp",
+        "iconPath": "images/csharp_icon.png",
+        "selectedIconPath": "images/csharp_icon.png"
+      },
+      {
+        "pagePath": "pages/python/python",
+        "text": "Python",
+        "iconPath": "images/python_icon.png",
+        "selectedIconPath": "images/python_icon.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/log_icon.png",
+        "selectedIconPath": "images/log_icon.png"
+      }
+    ]
+  }
+}
