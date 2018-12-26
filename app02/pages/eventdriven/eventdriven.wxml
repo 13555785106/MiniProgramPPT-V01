@@ -1,0 +1,30 @@
+<view wx:if="{{hi && name}}">
+  {{hi}},{{name}} 【{{date}}】
+</view>
+<button id="button_click_me" bindtap="clickme" data-hi="Hello" data-name="Jetty">
+  请点我！
+</button>
+<view id="outer" bindtap="handleTap1" style="border:1px solid red;padding:32px">
+  outer view
+  <view id="middle" catchtap="handleTap2" style="border:1px solid blue;padding:32px">
+    middle view
+    <view id="inner" bindtap="handleTap3" style="border:1px solid green;padding:32px">
+      inner view
+    </view>
+  </view>
+</view>
+
+<view
+  id="outer"
+  bind:touchstart="handleTap1"
+  capture-bind:touchstart="handleTap2"
+>
+  outer view
+  <view
+    id="inner"
+    bind:touchstart="handleTap3"
+    capture-bind:touchstart="handleTap4"
+  >
+    inner view
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view style="text-align:center">
+  {{nickName}}
+</view>
+<view style="text-align:center">
+  <image src="{{avatarUrl}}" mode='cover'
+style="border: 1px dashed grey;width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;"
+/>
+</view>
+<button open-type="getUserInfo" hover-class='none' bindgetuserinfo="getUserInfoFun">获取用户信息</button>
+<button bindtap='testauthorize'>授权测试</button>

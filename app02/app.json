@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/databind/databind",
+    "pages/listrendering/listrendering",
+    "pages/conditionalrendering/conditionalrendering",
+    "pages/templaterendering/templaterendering",
+    "pages/eventdriven/eventdriven"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WXML",
+    "navigationBarTextStyle": "black"
+  }
+}

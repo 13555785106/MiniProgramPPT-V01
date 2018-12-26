@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/kv/kv",
+    "pages/fs/fs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/kv/kv",
+        "text": "键值对",
+        "iconPath": "images/kv.png",
+        "selectedIconPath": "images/kv.png"
+      },
+      {
+        "pagePath": "pages/fs/fs",
+        "text": "本地文件",
+        "iconPath": "images/fs.png",
+        "selectedIconPath": "images/fs.png"
+      }
+    ]
+  }
+}

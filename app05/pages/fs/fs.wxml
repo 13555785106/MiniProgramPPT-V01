@@ -1,0 +1,4 @@
+<button bindtap='savefile' style="margin:10px">选择一个文件保存</button>
+<button bindtap='cachedfile' style="margin:10px">本地缓存文件列表</button>
+<button bindtap='listfile' style="margin:10px">用户目录文件列表</button>
+<button bindtap='makedir' style="margin:10px">创建目录</button>

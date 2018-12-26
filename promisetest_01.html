@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript测试</title>
+</head>
+<script>
+	new Promise(function(resolve, reject) {
+		//做一些异步操作
+		setTimeout(function() {
+			console.log('p1执行完成')
+			resolve('p1数据')
+			//reject('p1错误')
+		}, 2000);
+	}).then(function(data) {
+		console.log(data)
+		return new Promise(function(resolve, reject) {
+			setTimeout(function() {
+				console.log('p2执行完成')
+				//resolve('p2数据')
+				reject('p2错误')
+			}, 2000);
+		});
+	}).then(function(data) {
+		console.log(data)
+		return new Promise(function(resolve, reject) {
+			setTimeout(function() {
+				console.log('p3执行完成');
+				//resolve('p3数据')
+				reject('p3错误')
+			}, 2000);
+		});
+	}).then(function(data) {
+		console.log(data)
+	}).catch(function(data) {
+		console.log(data)
+	});
+</script>
+</body>
+</html>

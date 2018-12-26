@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/request/request",
+    "pages/upload/upload",
+    "pages/download/download"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网络",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/request/request",
+        "text": "请求",
+        "iconPath": "images/request.png",
+        "selectedIconPath": "images/request.png"
+      },
+      {
+        "pagePath": "pages/upload/upload",
+        "text": "上传",
+        "iconPath": "images/upload.png",
+        "selectedIconPath": "images/upload.png"
+      },
+      {
+        "pagePath": "pages/download/download",
+        "text": "下载",
+        "iconPath": "images/download.png",
+        "selectedIconPath": "images/download.png"
+      }
+    ]
+  }
+}

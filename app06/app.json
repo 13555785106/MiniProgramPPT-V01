@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/basic/basic",
+    "pages/coordinate/coordinate",
+    "pages/gradient/gradient",
+    "pages/beziercurve/beziercurve",
+    "pages/drawimage/drawimage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "画布示例",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/basic/basic",
+        "text": "基本绘制",
+        "iconPath": "images/panel.png",
+        "selectedIconPath": "images/panel.png"
+      },
+      {
+        "pagePath": "pages/coordinate/coordinate",
+        "text": "跟踪坐标",
+        "iconPath": "images/panel.png",
+        "selectedIconPath": "images/panel.png"
+      },
+      {
+        "pagePath": "pages/gradient/gradient",
+        "text": "渐变",
+        "iconPath": "images/panel.png",
+        "selectedIconPath": "images/panel.png"
+      },
+      {
+        "pagePath": "pages/beziercurve/beziercurve",
+        "text": "贝塞尔曲线",
+        "iconPath": "images/panel.png",
+        "selectedIconPath": "images/panel.png"
+      },
+      {
+        "pagePath": "pages/drawimage/drawimage",
+        "text": "加载图片",
+        "iconPath": "images/panel.png",
+        "selectedIconPath": "images/panel.png"
+      }
+    ]
+  }
+}

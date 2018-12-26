@@ -1,0 +1,10 @@
+<view>{{ message }}内容</view>
+<view id="item-{{id}}">组件属性(需要在双引号之内)</view>
+<view wx:if="{{condition}}">控制属性(需要在双引号之内)</view>
+<view hidden="{{flag ? true : false}}"> Hidden </view>
+<view> {{a + b}} + {{c}} + d </view>
+<view wx:if="{{length > 5}}">FFFFFFFFFFFF</view>
+<view>{{"hello " + name}}</view>
+<view>{{object.key}} {{array[0]}}</view>
+<view wx:for="{{[zero, 1, 2, 3, 4]}}"> {{item}} </view>
+<view wx:for="{{[zero, 1, 2, 3, 4]}} "> {{item}} </view>

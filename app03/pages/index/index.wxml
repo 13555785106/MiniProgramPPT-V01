@@ -1,0 +1,24 @@
+<button bindtap='tapinput' style="width:90%">input</button>
+<button bindtap='tapcheckbox' style="width:90%">checkbox</button>
+<button bindtap='tapradio' style="width:90%">radio</button>
+<button bindtap='tapslider' style="width:90%">slider</button>
+<button bindtap='tapswitch' style="width:90%">switch</button>
+<button bindtap='tapform' style="width:90%">form</button>
+<view style='text-align:center;font-size:64rpx'>
+  <navigator url="/pages/input/input" hover-class='navigator-hover'>input</navigator>
+</view>
+<view style='text-align:center;font-size:64rpx'>
+  <navigator url="/pages/checkbox/checkbox" hover-class='navigator-hover'>checkbox</navigator>
+</view>
+<view style='text-align:center;font-size:64rpx'>
+  <navigator url="/pages/radio/radio" hover-class='navigator-hover'>radio</navigator>
+</view>
+<view style='text-align:center;font-size:64rpx'>
+  <navigator url="/pages/slider/slider" hover-class='navigator-hover'>slider</navigator>
+</view>
+<view style='text-align:center;font-size:64rpx'>
+  <navigator url="/pages/switch/switch" hover-class='navigator-hover'>switch</navigator>
+</view>
+<view style='text-align:center;font-size:64rpx'>
+  <navigator url="/pages/form/form" hover-class='navigator-hover'>form</navigator>
+</view>

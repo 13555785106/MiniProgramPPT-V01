@@ -1,0 +1,13 @@
+<template name="msgItem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>
+
+<template name="odd">
+  <view>odd {{val}}</view>
+</template>
+<template name="even">
+  <view>even {{val}}</view>
+</template>

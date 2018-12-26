@@ -1,0 +1,4 @@
+<view style="text-align:center">
+  {{msg}}
+</view>
+<button bindtap='sendMessage'>发送</button>

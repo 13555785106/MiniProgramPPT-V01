@@ -1,0 +1,1 @@
+<slider bindchange="sliderchange" min="50" max="200" step="5" show-value />

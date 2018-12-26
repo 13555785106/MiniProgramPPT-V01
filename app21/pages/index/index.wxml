@@ -1,0 +1,7 @@
+<view class="container">
+  <canvas canvas-id='canvas' 
+  bindtap='bindtap' 
+  bindtouchstart='bindtouchstart'
+  bindtouchend='bindtouchend'
+  style="border:1px solid red;width:{{canvasWidth}}px;height:{{canvasWidth}}px"/>
+</view>

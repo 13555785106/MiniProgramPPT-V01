@@ -1,0 +1,3 @@
+<progress percent="{{percent}}" stroke-width="12" style='margin:12px;' />
+<view wx:if="{{percent}}" style='text-align:center'>{{percent}}%</view>
+<button bindtap="sendUpload">上传文件</button>

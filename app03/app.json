@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/input/input",
+    "pages/switch/switch",
+    "pages/slider/slider",
+    "pages/radio/radio",
+    "pages/checkbox/checkbox",
+    "pages/form/form"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "基础组件",
+    "navigationBarTextStyle": "black"
+  }
+}

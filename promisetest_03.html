@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript测试</title>
+</head>
+<script>
+	let p1 = new Promise(function(resolve, reject) {
+		setTimeout(function() {
+			console.log('p1执行完成')
+			resolve('p1数据')
+			//reject('p1错误')
+		}, 9000)
+	})
+	let p2 = new Promise(function(resolve, reject) {
+		setTimeout(function() {
+			console.log('p2执行完成')
+			resolve('p2数据')
+			//reject('p2错误')
+		}, 8000)
+	})
+	let p3 = new Promise(function(resolve, reject) {
+		setTimeout(function() {
+			console.log('p3执行完成')
+			resolve('p3数据')
+			//reject('p3错误')
+		}, 5000)
+	})
+	Promise.race([p1,p2,p3]
+	).then(function(data) {
+		console.log(data)
+	}).catch(function(data) {
+		console.log(data)
+	})
+</script>
+</body>
+</html>

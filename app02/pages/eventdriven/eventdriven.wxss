@@ -1,0 +1,5 @@
+view {
+  color: red;
+  background-color: grey;
+  margin:12px
+}

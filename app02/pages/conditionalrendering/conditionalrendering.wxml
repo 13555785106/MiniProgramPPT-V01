@@ -1,0 +1,11 @@
+<view wx:if="{{condition}}">哈哈哈,我满足条件了</view>
+<view wx:if="{{score > 100 || score<0}}">无效分数</view>
+<view wx:elif="{{score >= 90}}">A</view>
+<view wx:elif="{{score >= 80}}">B</view>
+<view wx:elif="{{score >= 70}}">C</view>
+<view wx:elif="{{score >= 60}}">D</view>
+<view wx:else>E</view>
+<block wx:if="{{true}}">
+  <view> view1 </view>
+  <view> view2 </view>
+</block>

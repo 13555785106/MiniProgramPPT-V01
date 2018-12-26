@@ -1,0 +1,5 @@
+
+<view style='width:100%;text-align:center;'>
+{{message}}
+</view>
+<input id="id001" style="border:1px solid red" placeholder='请按键盘进行输入' bindinput="bindinput"/>

@@ -1,0 +1,40 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view>
+    <view>姓名</view>
+    <input name="name" placeholder="请输入您的姓名" />
+  </view>
+  <view>
+    <view>性别</view>
+    <radio-group name="sex">
+      <label>
+        <radio value="男" checked='true' />男</label>
+      <label>
+        <radio value="女" />女</label>
+    </radio-group>
+  </view>
+  <view>
+    <view>婚否</view>
+    <switch name="married" checked="true"/>
+  </view>
+  <view>
+    <view>年龄</view>
+    <slider name="age" min="1" max="150" value="28" show-value></slider>
+  </view>
+
+
+  <view>
+    <view>爱好</view>
+    <checkbox-group name="hobbies">
+      <label>
+        <checkbox value="运动" checked='true'/>运动</label>
+      <label>
+        <checkbox value="音乐" />音乐</label>
+      <label>
+        <checkbox value="读书" checked='true'/>读书</label>
+    </checkbox-group>
+  </view>
+  <view>
+    <button name="ok" form-type="submit">提交</button>
+    <button name="reset" form-type="reset">重置</button>
+  </view>
+</form>

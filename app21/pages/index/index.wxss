@@ -1,0 +1,8 @@
+
+.round {
+  width: 720rpx;
+  height: 720rpx;
+  margin: 0rpx;
+  border: 1px solid red;
+  border-radius: 32rpx;
+}

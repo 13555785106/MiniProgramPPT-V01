@@ -1,0 +1,8 @@
+<button bindtap="databind">
+  数据绑定
+</button>
+<button bindtap="listrendering">列表渲染</button>
+<button bindtap="conditionalrendering">条件渲染</button>
+<button bindtap="templaterendering">模板渲染</button>
+<button bindtap="eventdriven">事件</button>
+<text space="ensp">aa     aa\nbbbb</text>
